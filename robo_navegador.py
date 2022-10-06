@@ -59,7 +59,6 @@ def main():
     driver.get('https://pt.aliexpress.com/?spm=a2g0o.productlist.1000002.1.3cc16dbfvgZy5D&gatewayAdapt=glo2bra')
     search(driver, 'redmi')
     listProducts = getItensInPage(driver)
-    print(listProducts[0])
     # TODO: Criar metodo para insersão de todos elementos da lista listProducts
     #query = "INSERT INTO public.products ( name, price, url) VALUES ('redmi', 10.2, 'http://hjkhsadj]')"
     #execute_query_insert(query)
