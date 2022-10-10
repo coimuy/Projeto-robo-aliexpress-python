@@ -5,7 +5,7 @@ def db_connect():
     _host = "localhost"
     _port = 5432
     _user = "postgres"
-    _pass = "postgre"
+    _pass = "postgres"
 
     return psycopg2.connect(host=_host, port=_port, user=_user, password=_pass)
 
